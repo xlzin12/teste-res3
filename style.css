@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+
+}
+
+:root {
+    --principal: #d4d4d4;
+    --texto: #000;
+
+
+
+}
+
+.aaa {
+    text-decoration: none;
+}
+
+.item .tamanho {
+    width: 23rem;
+    height: 49%;
+
+}
+
+.item .tamanho1 {
+    width: 23rem;
+    height: 14.4rem;
+
+}
+
+.IMT {
+
+
+
+    background-color: #f13e4a;
+    width: 91.5%;
+    padding: 1rem;
+    margin-top: 4rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+button {
+    margin-top: 1rem;
+    width: 90%;
+    height: 2rem;
+    background-color: #2b337c;
+
+
+}
+
+label {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+input {
+    width: 90%;
+    height: 2rem;
+}
+
+.formulario {
+    background-image: linear-gradient(#2b337c, #0c113a, black);
+    ;
+    margin: 2rem;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+nav img {
+    width: 4em;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+header h2 {
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 2rem;
+}
+
+.dife {
+    display: flex;
+    background-color: var(--principal);
+    justify-content: space-around;
+}
+
+
+.diferenciais {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    float: inline-end;
+    width: 86%;
+    padding: 2rem;
+    padding-right: 10.7rem;
+
+
+    box-shadow: 2px 2px 20px;
+
+}
+
+.diferenciais p {
+    font-size: rem;
+    margin: 2rem;
+    text-align: center;
+
+
+}
+
+.diferenciais h2 {
+    font-size: 4rem;
+    color: #2b337c;
+    margin-top: 4rem;
+
+}
+
+/* --pagina header  */
+
+header {
+    background-image: linear-gradient(#2b337c, #0c113a, black);
+    padding: 1rem;
+    padding-bottom: 10.8rem;
+
+
+
+}
+
+.menu {
+    margin-top: 1.7rem;
+
+}
+
+.menuprincipal1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuprincipal {
+    display: flex;
+    justify-content: end;
+    text-decoration: underline #FFF 2px;
+
+}
+
+.menuprincipal a {
+
+
+    text-decoration: none;
+
+    color: var(--texto);
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+
+
+.menuprincipal li {
+    list-style: none;
+}
+
+.logotipo img {
+    height: 6rem;
+    width: 16rem;
+
+}
+
+.hum {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.menuprincipal {
+    display: flex;
+
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+
+}
+
+nav .menu {
+    display: none;
+}
+
+nav:hover .menu {
+    display: block;
+}
+
+.contato p {
+    width: 26rem;
+    color: #fff;
+    background-color: #18d711;
+    padding: 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+
+}
+
+.contato a {
+    text-decoration: none;
+}
+
+.contato {
+    margin-top: 3rem;
+}
+
+.descricao1 {
+    color: #fff;
+
+
+}
+
+/* produtos */
+
+
+.pro-des {
+    margin-top: 20rem;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.azul {
+    color: #2b337c;
+    margin-bottom: 1rem;
+
+}
+
+.produto {
+    display: flex;
+    justify-content: center;
+}
+
+.produto2 {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+
+    margin: 2rem;
+    background-image: linear-gradient(#2b337c, #0c113a, black);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+
+
+}
+
+
+.descricao2 {
+    color: #fff;
+}
+
+.descricao1 h2 {
+    text-shadow: #000 2px 2px 1px;
+}
+
+.pro a {
+    text-decoration: none;
+
+}
+
+
+.pro h2 {
+    margin: 1rem;
+    font-size: 1.7rem;
+}
+
+.pro img {
+    width: 23rem;
+    border-radius: 1rem;
+}
+
+.pro p {
+    font-size: 1.5rem;
+    margin: .2rem;
+    line-height: 1.2rem;
+}
+
+.menor {
+    padding-bottom: 2.1rem;
+
+}
+
+
+.pro-des {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.contato1 a {
+    width: 24rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #18d711;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.contato1 {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.avaliacao p {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.cor1 {
+    color: #2b337c;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.avaliacao {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.de-item-img {
+    width: 15%;
+    margin: auto;
+}
+
+.de-item-img2 {
+    width: 1%5;
+    margin: auto;
+}
+
+.de-item2 img {
+    height: 1.3rem;
+    width: 7%;
+    border-radius: 100%;
+
+}
+
+.de-item2 h3 {
+    padding-bottom: .5rem;
+}
+
+.de-item2 {
+
+    padding: 1rem;
+    background-color: #fff;
+    height: 8rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.de-image {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.depoimentos {
+    display: flex;
+    justify-content: center;
+}
+
+.contato5 {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+}
+
+.duvidas {
+    background-image: linear-gradient(#2b337c, #0c113a, black);
+    color: #fff;
+}
+
+.duvidas p {
+    font-size: 2rem;
+    border-bottom: #fff 1px solid;
+    padding: 1.6rem;
+
+}
+
+.duvidas h1 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.efeito {
+    background: url('img2/4h21kow8_1584452262.webp') 50% / cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+.efeito p {
+    margin: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+
+.efeito h2 {
+    color: #e9f13e;
+    font-size: 2rem;
+}
+
+
+.contato1 a {
+    width: 24rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #18d711;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 3rem;
+}
+
+header a {
+    margin: 1rem;
+}
