@@ -270,7 +270,7 @@ margin: 1rem;
     header {
 
 
-        width: 96.6%;
+        width: 100%;
         padding-left: 1rem;
 
 
@@ -307,7 +307,7 @@ margin: 1rem;
 
     .menuprincipal1 a {
         font-size: 2rem;
-        width: 100%;
+      
 
     }
 
@@ -334,17 +334,17 @@ margin: 1rem;
 
     .menuprincipal li {
 
-        margin: .5rem 0;
+        margin: .3rem 0;
 
     }
 
     .diferenciais {
 
-        gap: 2rem;
+        
         text-align: center;
         display: flex;
         flex-direction: row;
-        padding-left: rem;
+        
 
         width: 75.4vw;
         float: left;
@@ -359,7 +359,7 @@ margin: 1rem;
 
 
     }
-
+                  
     .iitem img {
 
         width: 50%;
@@ -443,7 +443,7 @@ margin: 1rem;
         font-size: 75px;
     }
 
-    .pro img {
+    .pro .photo {
         width: 28vw;
         border-radius: 1rem;
     }

@@ -115,6 +115,7 @@ header p {
 
 .diferenciais {
     display: flex;
+   
     justify-content: space-between;
     background-color: #fff;
     margin-top: 4rem;
@@ -128,6 +129,9 @@ header p {
 
     box-shadow: 2px 2px 20px;
 
+}
+.diferenciais .iitem{
+     align-items: center;
 }
 
 .diferenciais p {
