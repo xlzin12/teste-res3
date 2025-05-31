@@ -344,9 +344,9 @@ margin: 1rem;
         text-align: center;
         display: flex;
         flex-direction: row;
-        
+        margin-left: 1.5rem;
 
-        width: 73.9vw;
+        width: 69.9vw;
         float: left;
 
     }
